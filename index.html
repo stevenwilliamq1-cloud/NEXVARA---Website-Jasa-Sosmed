@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="id" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViralBossID - Panel & Jasa Social Media Marketing #1 Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#fdf4ff',
+                            100: '#fae8ff',
+                            200: '#f5d0fe',
+                            300: '#f0abfc',
+                            400: '#e879f9',
+                            500: '#d946ef',
+                            600: '#c026d3',
+                            700: '#a21caf',
+                            800: '#86198f',
+                            900: '#701a75',
+                            dark: '#080511',
+                            card: '#120c24',
+                            border: '#2a1a4a'
+                        }
+                    },
+                    animation: {
+                        'pulse-glow': 'pulseGlow 3s infinite alternate',
+                        'float': 'float 4s ease-in-out infinite',
+                        'gradient-x': 'gradientX 6s ease infinite',
+                    },
+                    keyframes: {
+                        pulseGlow: {
+                            '0%': { boxShadow: '0 0 15px rgba(192, 38, 211, 0.3)' },
+                            '100%': { boxShadow: '0 0 35px rgba(217, 70, 239, 0.7)' }
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-10px)' }
+                        },
+                        gradientX: {
+                            '0%, 100%': { 'background-size': '200% 200%', 'background-position': 'left center' },
+                            '50%': { 'background-size': '200% 200%', 'background-position': 'right center' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #07040f;
+            color: #f1f5f9;
+            overflow-x: hidden;
+        }
+        .glass-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(217, 70, 239, 0.18);
+        }
+        .glass-card-hover:hover {
+            border-color: rgba(217, 70, 239, 0.5);
+            box-shadow: 0 10px 30px -10px rgba(192, 38, 211, 0.4);
+            transform: translateY(-3px);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #ffffff 0%, #e879f9 50%, #c026d3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-purple-glow {
+            background: linear-gradient(135deg, #f0abfc 0%, #d946ef 50%, #a21caf 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-gradient-brand {
+            background: linear-gradient(135deg, #c026d3 0%, #86198f 50%, #4c1d95 100%);
+        }
+        .bg-gradient-glow {
+            background: linear-gradient(90deg, #d946ef, #8b5cf6, #ec4899);
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #07040f;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4c1d95;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d946ef;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-500 selection:text-white">
+
+    <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+        <div class="absolute -top-40 -left-40 w-96 h-96 bg-fuchsia-600/20 rounded-full blur-[120px] animate-pulse-glow"></div>
+        <div class="absolute top-1/3 -right-40 w-96 h-96 bg-purple-600/20 rounded-full blur-[140px]"></div>
+        <div class="absolute -bottom-40 left-1/3 w-[500px] h-[500px] bg-pink-600/15 rounded-full blur-[160px]"></div>
+    </div>
+
+    <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#07040f]/80 border-b border-purple-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo Section matching user's image -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-12 h-12 relative flex items-center justify-center transition-transform group-hover:scale-105">
+                    <!-- Recreated exact logo vector with glowing violet V and white B -->
+                    <svg viewBox="0 0 200 200" class="w-full h-full drop-shadow-[0_0_12px_rgba(217,70,239,0.6)]">
+                        <defs>
+                            <linearGradient id="logoVGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#f472b6" />
+                                <stop offset="40%" stop-color="#d946ef" />
+                                <stop offset="80%" stop-color="#9333ea" />
+                                <stop offset="100%" stop-color="#581c87" />
+                            </linearGradient>
+                            <linearGradient id="logoBGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="100%" stop-color="#cbd5e1" />
+                            </linearGradient>
+                        </defs>
+                        <!-- V Shape -->
+                        <path d="M 20 40 L 75 40 L 100 135 L 75 160 Z" fill="url(#logoVGrad)" />
+                        <path d="M 75 160 L 100 135 L 125 75 L 100 75 Z" fill="url(#logoVGrad)" opacity="0.85" />
+                        <!-- B Shape -->
+                        <path d="M 95 40 L 160 40 C 180 40, 180 75, 160 85 C 185 95, 185 135, 155 135 L 92 135 L 115 110 L 145 110 C 158 110, 158 92, 140 92 L 112 92 L 122 65 L 145 65 C 158 65, 158 52, 142 52 L 105 52 Z" fill="url(#logoBGrad)" />
+                    </svg>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-2xl font-extrabold tracking-wider text-white">VIRAL<span class="text-gradient">BOSS</span><span class="text-brand-400">.ID</span></span>
+                    <span class="text-[10px] tracking-widest text-purple-300 font-semibold uppercase -mt-1">Social Growth Panel</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                <a href="#hero" class="hover:text-brand-400 transition-colors">Beranda</a>
+                <a href="#calculator" class="hover:text-brand-400 transition-colors">Order Instan</a>
+                <a href="#services" class="hover:text-brand-400 transition-colors">Daftar Layanan</a>
+                <a href="#packages" class="hover:text-brand-400 transition-colors">Paket Viral</a>
+                <a href="#features" class="hover:text-brand-400 transition-colors">Keunggulan</a>
+                <a href="#faq" class="hover:text-brand-400 transition-colors">FAQ</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <div class="hidden md:flex items-center gap-4">
+                <a href="#calculator" class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-semibold rounded-xl group bg-gradient-to-br from-brand-500 to-purple-600 group-hover:from-brand-500 group-hover:to-pink-500 hover:text-white text-white shadow-lg shadow-purple-900/40">
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-[#07040f] rounded-[10px] group-hover:bg-opacity-0 flex items-center gap-2">
+                        <i class="fa-solid fa-bolt text-brand-400 group-hover:text-white">
+                        </i> Order Sekarang
+                    </span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="menuBtn" class="md:hidden text-2xl text-slate-200 focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div id="mobileMenu" class="hidden md:hidden bg-[#0a0618] border-b border-purple-900/40 px-6 py-4 space-y-3">
+            <a href="#hero" class="block text-slate-300 hover:text-brand-400 py-1 font-medium">Beranda</a>
+            <a href="#calculator" class="block text-slate-300 hover:text-brand-400 py-1 font-medium">Order Instan</a>
+            <a href="#services" class="block text-slate-300 hover:text-brand-400 py-1 font-medium">Daftar Layanan</a>
+            <a href="#packages" class="block text-slate-300 hover:text-brand-400 py-1 font-medium">Paket Viral</a>
+            <a href="#features" class="block text-slate-300 hover:text-brand-400 py-1 font-medium">Keunggulan</a>
+            <a href="#faq" class="block text-slate-300 hover:text-brand-400 py-1 font-medium">FAQ</a>
+            <a href="#calculator" class="w-full text-center block bg-gradient-to-r from-brand-500 to-purple-600 text-white font-bold py-2.5 rounded-xl shadow-lg mt-3">
+                Order Sekarang
+            </a>
+        </div>
+    </header>
+
+    <section id="hero" class="relative pt-12 pb-20 md:pt-20 md:pb-32 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Hero Text -->
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border-brand-500/40 text-brand-300 text-xs sm:text-sm font-semibold tracking-wide animate-pulse">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                        <i class="fa-solid fa-fire text-amber-400"></i> Panel Layanan Sosmed #1 Ultra HD Fast Processing
+                    </div>
+
+                    <h1 class="text-4xl sm:text-6xl lg:text-6xl font-extrabold tracking-tight leading-tight text-white">
+                        Booster Sosmed <br>
+                        <span class="text-gradient">Viral & Terpercaya</span> <br>
+                        Se-Indonesia
+                    </h1>
+
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Tingkatkan kredibilitas, followers, likes, views, dan engagment akun **TikTok, Instagram, YouTube, & Shopee** Anda dalam hitungan menit. 100% Aman tanpa password!
+                    </p>
+
+                    <!-- Features Pills -->
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-2 text-xs sm:text-sm font-medium text-slate-300">
+                        <span class="flex items-center gap-2 bg-purple-950/40 border border-purple-800/40 px-3.5 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-shield-halved text-emerald-400"></i> Tanpa Password
+                        </span>
+                        <span class="flex items-center gap-2 bg-purple-950/40 border border-purple-800/40 px-3.5 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-bolt text-amber-400"></i> Proses Instan 24/7
+                        </span>
+                        <span class="flex items-center gap-2 bg-purple-950/40 border border-purple-800/40 px-3.5 py-1.5 rounded-lg">
+                            <i class="fa-solid fa-rotate-right text-brand-400"></i> Garansi Refill
+                        </span>
+                    </div>
+
+                    <!-- Hero CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#calculator" class="px-8 py-4 bg-gradient-to-r from-brand-500 via-purple-600 to-pink-600 hover:from-brand-600 hover:to-pink-700 text-white font-bold rounded-2xl shadow-xl shadow-brand-500/30 hover:shadow-brand-500/50 transition-all duration-300 transform hover:-translate-y-1 text-center flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-rocket text-lg"></i>
+                            Kalkulator Order Instan
+                        </a>
+                        <a href="#services" class="px-8 py-4 glass-card hover:bg-purple-900/30 text-slate-200 font-bold rounded-2xl border border-purple-500/30 hover:border-purple-500/70 transition-all duration-300 text-center flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-list-check text-brand-400"></i>
+                            Cek Price List Lengkap
+                        </a>
+                    </div>
+
+                    <!-- Metrics Stats Counter -->
+                    <div class="grid grid-cols-3 gap-4 pt-8 border-t border-purple-900/40 text-center lg:text-left">
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-white">2.8M+</p>
+                            <p class="text-xs text-slate-400 font-medium">Pesanan Selesai</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-brand-400">99.8%</p>
+                            <p class="text-xs text-slate-400 font-medium">Kepuasan Klien</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-pink-400">&lt; 5 Menit</p>
+                            <p class="text-xs text-slate-400 font-medium">Rata-rata Respon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Image / Floating Interactive Card -->
+                <div class="lg:col-span-5 relative flex justify-center">
+                    <div class="w-full max-w-md glass-card rounded-3xl p-6 sm:p-8 relative border-purple-500/30 shadow-2xl animate-float">
+                        <!-- Glow effect -->
+                        <div class="absolute -inset-1 bg-gradient-to-r from-brand-500 to-purple-600 rounded-3xl blur opacity-30 -z-10"></div>
+                        
+                        <!-- Header inside card -->
+                        <div class="flex items-center justify-between border-b border-purple-800/40 pb-4 mb-6">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-brand-500/20 border border-brand-500/50 flex items-center justify-center text-brand-300">
+                                    <i class="fa-solid fa-chart-line text-lg"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-white font-bold text-sm">Live Engagement Boost</h3>
+                                    <p class="text-xs text-slate-400">ViralBossID Core Engine</p>
+                                </div>
+                            </div>
+                            <span class="px-2.5 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold rounded-full uppercase">Active</span>
+                        </div>
+
+                        <!-- Animated Stats Preview -->
+                        <div class="space-y-4">
+                            <!-- TikTok Item -->
+                            <div class="bg-purple-950/40 border border-purple-800/30 rounded-2xl p-3.5 flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-black flex items-center justify-center text-white border border-slate-700">
+                                        <i class="fa-brands fa-tiktok"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs font-bold text-white">TikTok FYP Views</p>
+                                        <p class="text-[10px] text-emerald-400"><i class="fa-solid fa-arrow-trend-up"></i> +100,000 Views</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-brand-300">Selesai</span>
+                            </div>
+
+                            <!-- Instagram Item -->
+                            <div class="bg-purple-950/40 border border-purple-800/30 rounded-2xl p-3.5 flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 flex items-center justify-center text-white">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs font-bold text-white">Instagram Followers Real</p>
+                                        <p class="text-[10px] text-emerald-400"><i class="fa-solid fa-arrow-trend-up"></i> +10,000 Followers</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-brand-300">Selesai</span>
+                            </div>
+
+                            <!-- YouTube Item -->
+                            <div class="bg-purple-950/40 border border-purple-800/30 rounded-2xl p-3.5 flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-red-600 flex items-center justify-center text-white">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs font-bold text-white">YouTube Watch Time</p>
+                                        <p class="text-[10px] text-emerald-400"><i class="fa-solid fa-arrow-trend-up"></i> 4,000 Jam Monitised</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-brand-300">Selesai</span>
+                            </div>
+                        </div>
+
+                        <!-- Card Footer -->
+                        <div class="mt-6 pt-4 border-t border-purple-800/40 text-center">
+                            <p class="text-xs text-slate-400">Dipercaya oleh <span class="text-white font-bold">12,500+ Influencer & Brand</span> di Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 border-y border-purple-900/30 bg-[#0a0618]/60 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-xs font-semibold uppercase tracking-widest text-slate-400 mb-6">Mendukung Seluruh Platform Media Sosial Populer</p>
+            <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16 opacity-80">
+                <div class="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
+                    <i class="fa-brands fa-tiktok text-2xl text-pink-400"></i>
+                    <span class="font-bold text-sm">TikTok</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
+                    <i class="fa-brands fa-instagram text-2xl text-purple-400"></i>
+                    <span class="font-bold text-sm">Instagram</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
+                    <i class="fa-brands fa-youtube text-2xl text-red-500"></i>
+                    <span class="font-bold text-sm">YouTube</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
+                    <i class="fa-solid fa-bag-shopping text-2xl text-orange-500"></i>
+                    <span class="font-bold text-sm">Shopee</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
+                    <i class="fa-brands fa-facebook text-2xl text-blue-500"></i>
+                    <span class="font-bold text-sm">Facebook</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
+                    <i class="fa-brands fa-x-twitter text-2xl text-slate-200"></i>
+                    <span class="font-bold text-sm">X / Twitter</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="py-20 relative z-10">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center space-y-3 mb-12">
+                <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Kalkulator Transparan</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Hitung Harga & Order Instan</h2>
+                <p class="text-slate-400 text-sm max-w-lg mx-auto">Pilih platform, jenis layanan, dan jumlah yang diinginkan. Dapatkan harga hemat terbaik secara otomatis.</p>
+            </div>
+
+            <!-- Calculator Glass Box -->
+            <div class="glass-card rounded-3xl p-6 sm:p-10 border-brand-500/30 shadow-2xl relative">
+                <div class="grid md:grid-cols-2 gap-8">
+                    
+                    <!-- Left Settings -->
+                    <div class="space-y-6">
+                        <!-- Step 1: Select Platform -->
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">1. Pilih Platform</label>
+                            <div class="grid grid-cols-4 gap-2" id="platformSelector">
+                                <button onclick="selectPlatform('tiktok')" id="btn-tiktok" class="platform-btn active p-3 rounded-xl border border-brand-500 bg-brand-500/20 text-white flex flex-col items-center justify-center gap-1 transition-all">
+                                    <i class="fa-brands fa-tiktok text-xl"></i>
+                                    <span class="text-[11px] font-bold">TikTok</span>
+                                </button>
+                                <button onclick="selectPlatform('instagram')" id="btn-instagram" class="platform-btn p-3 rounded-xl border border-purple-900/50 bg-purple-950/20 text-slate-400 hover:text-white flex flex-col items-center justify-center gap-1 transition-all">
+                                    <i class="fa-brands fa-instagram text-xl"></i>
+                                    <span class="text-[11px] font-bold">Instagram</span>
+                                </button>
+                                <button onclick="selectPlatform('youtube')" id="btn-youtube" class="platform-btn p-3 rounded-xl border border-purple-900/50 bg-purple-950/20 text-slate-400 hover:text-white flex flex-col items-center justify-center gap-1 transition-all">
+                                    <i class="fa-brands fa-youtube text-xl"></i>
+                                    <span class="text-[11px] font-bold">YouTube</span>
+                                </button>
+                                <button onclick="selectPlatform('shopee')" id="btn-shopee" class="platform-btn p-3 rounded-xl border border-purple-900/50 bg-purple-950/20 text-slate-400 hover:text-white flex flex-col items-center justify-center gap-1 transition-all">
+                                    <i class="fa-solid fa-bag-shopping text-xl"></i>
+                                    <span class="text-[11px] font-bold">Shopee</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Select Service -->
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">2. Pilih Layanan</label>
+                            <select id="serviceSelect" onchange="updateCalculation()" class="w-full bg-[#0a0618] border border-purple-800/50 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brand-500 text-sm font-medium">
+                                <!-- Options will be populated dynamically by JS -->
+                            </select>
+                        </div>
+
+                        <!-- Step 3: Quantity Input -->
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <label class="text-xs font-bold text-slate-300 uppercase tracking-wider">3. Jumlah Order</label>
+                                <span id="minMaxInfo" class="text-[11px] text-brand-300 font-semibold">Min: 100 | Max: 100,000</span>
+                            </div>
+                            <input type="number" id="quantityInput" value="1000" step="100" min="100" oninput="updateCalculation()" class="w-full bg-[#0a0618] border border-purple-800/50 rounded-xl px-4 py-3 text-white font-bold focus:outline-none focus:border-brand-500 text-base">
+                            
+                            <!-- Quick quantity preset pills -->
+                            <div class="flex gap-2 mt-2">
+                                <button onclick="setQuantity(500)" class="px-3 py-1 bg-purple-950/40 border border-purple-800/30 rounded-lg text-xs text-slate-300 hover:border-brand-500">500</button>
+                                <button onclick="setQuantity(1000)" class="px-3 py-1 bg-purple-950/40 border border-purple-800/30 rounded-lg text-xs text-slate-300 hover:border-brand-500">1,000</button>
+                                <button onclick="setQuantity(5000)" class="px-3 py-1 bg-purple-950/40 border border-purple-800/30 rounded-lg text-xs text-slate-300 hover:border-brand-500">5,000</button>
+                                <button onclick="setQuantity(10000)" class="px-3 py-1 bg-purple-950/40 border border-purple-800/30 rounded-lg text-xs text-slate-300 hover:border-brand-500">10,000</button>
+                            </div>
+                        </div>
+
+                        <!-- Step 4: Target Link / Username -->
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">4. Username / Link Target</label>
+                            <input type="text" id="targetInput" placeholder="Contoh: @username_anda atau link postingan" class="w-full bg-[#0a0618] border border-purple-800/50 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-sm">
+                            <p class="text-[10px] text-emerald-400 mt-1"><i class="fa-solid fa-lock"></i> Hanya butuh link/username. Password TIDAK dibutuhkan!</p>
+                        </div>
+                    </div>
+
+                    <!-- Right Summary & Order Panel -->
+                    <div class="bg-gradient-to-b from-purple-950/40 to-[#0d0722] rounded-2xl p-6 border border-purple-800/40 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-white font-bold text-lg border-b border-purple-800/40 pb-3 mb-4 flex items-center gap-2">
+                                <i class="fa-solid fa-receipt text-brand-400"></i> Ringkasan Pesanan
+                            </h3>
+
+                            <div class="space-y-3 text-sm">
+                                <div class="flex justify-between text-slate-400">
+                                    <span>Platform:</span>
+                                    <span id="summaryPlatform" class="text-white font-semibold">TikTok</span>
+                                </div>
+                                <div class="flex justify-between text-slate-400">
+                                    <span>Layanan:</span>
+                                    <span id="summaryService" class="text-white font-semibold text-right max-w-[200px] truncate">Followers Permanent High Quality</span>
+                                </div>
+                                <div class="flex justify-between text-slate-400">
+                                    <span>Estimasi Kecepatan:</span>
+                                    <span id="summarySpeed" class="text-emerald-400 font-semibold">Instan (10-30 Menit)</span>
+                                </div>
+                                <div class="flex justify-between text-slate-400">
+                                    <span>Garansi Drop:</span>
+                                    <span id="summaryGuarantee" class="text-brand-300 font-semibold">30 Hari Refill</span>
+                                </div>
+                                <div class="flex justify-between text-slate-400">
+                                    <span>Jumlah:</span>
+                                    <span id="summaryQty" class="text-white font-semibold">1,000</span>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 pt-4 border-t border-purple-800/40">
+                                <span class="text-xs text-slate-400 font-medium">Total Pembayaran:</span>
+                                <div class="flex items-baseline gap-2 mt-1">
+                                    <span id="totalPrice" class="text-3xl font-extrabold text-gradient">Rp 25.000</span>
+                                    <span class="text-xs text-emerald-400 font-bold bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded">Super Hemat</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Direct Order Button -->
+                        <div class="mt-6">
+                            <button onclick="processOrder()" class="w-full py-4 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-extrabold rounded-xl shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center gap-2 text-base">
+                                <i class="fa-brands fa-whatsapp text-xl"></i>
+                                Pesan Sekarang via WhatsApp
+                            </button>
+                            <p class="text-center text-[11px] text-slate-400 mt-2">Sistem pesan terhubung langsung dengan Admin CS ViralBossID</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-[#07040f] relative z-10 border-t border-purple-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                <div>
+                    <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Katalog Harga Lengkap</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-1">Daftar Layanan Master</h2>
+                </div>
+                
+                <!-- Search & Category Filter Bar -->
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <div class="relative">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3.5 text-slate-500 text-sm"></i>
+                        <input type="text" id="tableSearch" onkeyup="filterTable()" placeholder="Cari layanan (misal: Followers)..." class="bg-[#0e0822] border border-purple-800/40 rounded-xl pl-10 pr-4 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 w-full sm:w-64">
+                    </div>
+                    <select id="tableCategoryFilter" onchange="filterTable()" class="bg-[#0e0822] border border-purple-800/40 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-brand-500">
+                        <option value="ALL">Semua Platform</option>
+                        <option value="TikTok">TikTok</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="YouTube">YouTube</option>
+                        <option value="Shopee">Shopee</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Price Table -->
+            <div class="glass-card rounded-2xl overflow-hidden border-purple-900/40 shadow-xl">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse" id="servicesTable">
+                        <thead>
+                            <tr class="bg-purple-950/60 border-b border-purple-800/40 text-xs text-brand-300 font-bold uppercase tracking-wider">
+                                <th class="p-4">ID</th>
+                                <th class="p-4">Platform & Layanan</th>
+                                <th class="p-4">Harga / 1,000</th>
+                                <th class="p-4">Min - Max</th>
+                                <th class="p-4">Est. Waktu</th>
+                                <th class="p-4">Garansi</th>
+                                <th class="p-4 text-center">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-purple-900/30 text-xs sm:text-sm text-slate-300" id="tableBody">
+                            <!-- Populated dynamically by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="packages" class="py-20 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-14">
+                <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Paket Bundling Hemat</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Paket Viral Siap Pakai</h2>
+                <p class="text-slate-400 text-sm max-w-xl mx-auto">Dirancang khusus untuk Kreator, Toko Online, dan Brand yang ingin mendongkrak akun dengan cepat & terstruktur.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Package 1: Pemula / Starter -->
+                <div class="glass-card rounded-3xl p-8 border-purple-800/40 hover:border-brand-500/60 transition-all flex flex-col justify-between relative group">
+                    <div>
+                        <span class="px-3 py-1 bg-purple-900/50 text-purple-300 border border-purple-700/50 text-[11px] font-bold rounded-full">STARTER PACK</span>
+                        <h3 class="text-2xl font-extrabold text-white mt-4">Pemula Viral</h3>
+                        <p class="text-xs text-slate-400 mt-1">Cocok untuk mempercantik profile awal</p>
+                        
+                        <div class="my-6">
+                            <span class="text-4xl font-black text-white">Rp 99.000</span>
+                            <span class="text-xs text-slate-500 line-through ml-2">Rp 150.000</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-slate-300 mb-8">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 1,000 Followers Active TikTok / IG
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 5,000 Views FYP Booster
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 500 Post Likes
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> Process Speed: 1-3 Jam
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> Garansi Refill 30 Hari
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="orderPackage('Pemula Viral', '99.000')" class="w-full py-3.5 bg-purple-950/80 hover:bg-brand-600 border border-purple-700/50 text-white font-bold rounded-xl transition-all">
+                        Pilih Paket Ini
+                    </button>
+                </div>
+
+                <!-- Package 2: Influencer / Creator (POPULAR) -->
+                <div class="glass-card rounded-3xl p-8 border-brand-500/80 bg-gradient-to-b from-purple-950/50 to-brand-950/30 transition-all flex flex-col justify-between relative shadow-2xl shadow-brand-500/20 transform md:-translate-y-3">
+                    <div class="absolute -top-4 right-8 bg-gradient-to-r from-brand-500 to-pink-500 text-white text-[10px] font-extrabold uppercase px-4 py-1.5 rounded-full shadow-lg">
+                        PALING LARIS
+                    </div>
+                    
+                    <div>
+                        <span class="px-3 py-1 bg-brand-500/20 text-brand-300 border border-brand-500/50 text-[11px] font-bold rounded-full">CREATOR PRO</span>
+                        <h3 class="text-2xl font-extrabold text-white mt-4">Kreator Viral</h3>
+                        <p class="text-xs text-slate-300 mt-1">Untuk menembus algoritma FYP & Trending</p>
+
+                        <div class="my-6">
+                            <span class="text-4xl font-black text-gradient">Rp 249.000</span>
+                            <span class="text-xs text-slate-500 line-through ml-2">Rp 400.000</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-slate-200 mb-8">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 5,000 Followers Quality HQ
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 25,000 Views Video Viral
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 2,500 Post Likes High Engagement
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 50 Komentar Positif Custom
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> Prioritas Antrean VIP
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="orderPackage('Kreator Viral', '249.000')" class="w-full py-3.5 bg-gradient-to-r from-brand-500 to-pink-600 hover:from-brand-600 hover:to-pink-700 text-white font-bold rounded-xl shadow-lg transition-all">
+                        Pilih Paket Pro
+                    </button>
+                </div>
+
+                <!-- Package 3: Business / Brand Master -->
+                <div class="glass-card rounded-3xl p-8 border-purple-800/40 hover:border-brand-500/60 transition-all flex flex-col justify-between relative">
+                    <div>
+                        <span class="px-3 py-1 bg-purple-900/50 text-purple-300 border border-purple-700/50 text-[11px] font-bold rounded-full">BRAND BOSS</span>
+                        <h3 class="text-2xl font-extrabold text-white mt-4">Sultan Omzet</h3>
+                        <p class="text-xs text-slate-400 mt-1">Meningkatkan konversi penjualan toko online</p>
+
+                        <div class="my-6">
+                            <span class="text-4xl font-black text-white">Rp 599.000</span>
+                            <span class="text-xs text-slate-500 line-through ml-2">Rp 950.000</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-slate-300 mb-8">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 15,000 Followers Target Indonesia
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 100,000 Total Video Views
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> 5,000 Likes & Share All Content
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> Live Stream Viewer Booster (1 Jam)
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> Dedicated Support Admin 24/7
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="orderPackage('Sultan Omzet', '599.000')" class="w-full py-3.5 bg-purple-950/80 hover:bg-brand-600 border border-purple-700/50 text-white font-bold rounded-xl transition-all">
+                        Pilih Paket Sultan
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-[#07040f] border-t border-purple-900/30 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-16">
+                <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Mengapa ViralBossID?</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Keunggulan Utama Layanan Kami</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40 glass-card-hover transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-brand-500/20 border border-brand-500/50 flex items-center justify-center text-brand-400 mb-5 text-xl">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Proses Serba Otomatis</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Pesanan diproses secara otomatis oleh sistem engine kami setelah pembayaran terkonfirmasi tanpa waktu tunggu lama.</p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40 glass-card-hover transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/20 border border-emerald-500/50 flex items-center justify-center text-emerald-400 mb-5 text-xl">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">100% Aman & Legal</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Kami hanya memerlukan Username atau Link Postingan target Anda. Bebas risiko banned karena sesuai standar API platform.</p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40 glass-card-hover transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/20 border border-purple-500/50 flex items-center justify-center text-purple-400 mb-5 text-xl">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Garansi Auto Refill</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Hampir seluruh layanan kami dilengkapi garansi isi ulang (refill) gratis jika terjadi drop jumlah dalam rentang garansi.</p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40 glass-card-hover transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-pink-500/20 border border-pink-500/50 flex items-center justify-center text-pink-400 mb-5 text-xl">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Harga Grosir Tangan Pertama</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Dapatkan tarif terbaik termurah di Indonesia. Cocok juga untuk Anda yang ingin menjual kembali (reseller/agency).</p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40 glass-card-hover transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/20 border border-amber-500/50 flex items-center justify-center text-amber-400 mb-5 text-xl">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Customer Service 24/7</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Tim admin kami siap membantu pertanyaan dan kendala teknis Anda kapan pun melalui layanan Live WhatsApp.</p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40 glass-card-hover transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/20 border border-blue-500/50 flex items-center justify-center text-blue-400 mb-5 text-xl">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Pilihan Akun Indonesia Real</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Tersedia pilihan akun interaksi Indonesia aktif maupun Worldwide sesuai kebutuhan algoritma akun Anda.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-14">
+                <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Testimoni Klien</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Apa Kata Pengguna Kami?</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40">
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed italic mb-6">"Gila sih pengerjaannya gak nyampe 15 menit followers TikTok langsung masuk 5.000. Omzet jualan live streaming saya langsung melonjak drastis!"</p>
+                    <div class="flex items-center gap-3 border-t border-purple-800/30 pt-4">
+                        <div class="w-9 h-9 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center font-bold text-white text-xs">
+                            R
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">Rian Fashion Shop</h4>
+                            <p class="text-[10px] text-slate-400">Seller TikTok Shop</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40">
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed italic mb-6">"Awalnya ragu tapi pas nyoba paket Pemula IG buat endorse, trusted banget! Admin fast respon di WA, ramah dan dibimbing sampe beres."</p>
+                    <div class="flex items-center gap-3 border-t border-purple-800/30 pt-4">
+                        <div class="w-9 h-9 rounded-full bg-gradient-to-r from-brand-500 to-purple-600 flex items-center justify-center font-bold text-white text-xs">
+                            A
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">Amanda S.</h4>
+                            <p class="text-[10px] text-slate-400">Content Creator</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl p-6 border-purple-800/40">
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed italic mb-6">"Layanan YouTube Watch Time nya terbukti lulus monetisasi monet channel saya! Makasih ViralBossID, benar-benar penyelamat kreator."</p>
+                    <div class="flex items-center gap-3 border-t border-purple-800/30 pt-4">
+                        <div class="w-9 h-9 rounded-full bg-gradient-to-r from-pink-500 to-red-500 flex items-center justify-center font-bold text-white text-xs">
+                            D
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">Deni Gaming Channel</h4>
+                            <p class="text-[10px] text-slate-400">YouTuber Streamer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20 bg-[#07040f] border-t border-purple-900/30 relative z-10">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-14">
+                <span class="text-brand-400 font-bold text-xs uppercase tracking-widest">Pertanyaan Umum</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="space-y-4" id="faqAccordion">
+                
+                <div class="glass-card rounded-2xl border-purple-800/40 overflow-hidden">
+                    <button onclick="toggleFaq('faq1')" class="w-full text-left p-5 text-sm font-bold text-white flex justify-between items-center focus:outline-none">
+                        <span>Apakah aman dan membutuhkan password akun saya?</span>
+                        <i id="faq1-icon" class="fa-solid fa-chevron-down text-brand-400 transition-transform"></i>
+                    </button>
+                    <div id="faq1" class="hidden p-5 pt-0 text-xs text-slate-300 border-t border-purple-900/20 leading-relaxed">
+                        Sangat Aman! Kami **TIDAK PERNAH** meminta password atau akses login ke akun Anda. Kami hanya memerlukan link postingan atau Username publik Anda. Akun Anda 100% aman dari risiko kebocoran data.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl border-purple-800/40 overflow-hidden">
+                    <button onclick="toggleFaq('faq2')" class="w-full text-left p-5 text-sm font-bold text-white flex justify-between items-center focus:outline-none">
+                        <span>Berapa lama waktu proses pengerjaan pesanan?</span>
+                        <i id="faq2-icon" class="fa-solid fa-chevron-down text-brand-400 transition-transform"></i>
+                    </button>
+                    <div id="faq2" class="hidden p-5 pt-0 text-xs text-slate-300 border-t border-purple-900/20 leading-relaxed">
+                        Proses pengerjaan dimulai secara instan dalam 5 - 30 menit setelah pembayaran dikonfirmasi oleh sistem/admin. Waktu penyelesaian penuh bergantung pada jumlah pesanan yang Anda pilih.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl border-purple-800/40 overflow-hidden">
+                    <button onclick="toggleFaq('faq3')" class="w-full text-left p-5 text-sm font-bold text-white flex justify-between items-center focus:outline-none">
+                        <span>Bagaimana jika jumlah followers / likes mengalami penurunan (drop)?</span>
+                        <i id="faq3-icon" class="fa-solid fa-chevron-down text-brand-400 transition-transform"></i>
+                    </button>
+                    <div id="faq3" class="hidden p-5 pt-0 text-xs text-slate-300 border-t border-purple-900/20 leading-relaxed">
+                        Layanan di ViralBossID memiliki status **Garansi Refill 30 Hari**. Jika terjadi drop penurunan di atas batas wajar, Anda cukup mengirimkan ID pesanan ke admin WhatsApp kami untuk diisi ulang secara gratis!
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl border-purple-800/40 overflow-hidden">
+                    <button onclick="toggleFaq('faq4')" class="w-full text-left p-5 text-sm font-bold text-white flex justify-between items-center focus:outline-none">
+                        <span>Metode pembayaran apa saja yang tersedia?</span>
+                        <i id="faq4-icon" class="fa-solid fa-chevron-down text-brand-400 transition-transform"></i>
+                    </button>
+                    <div id="faq4" class="hidden p-5 pt-0 text-xs text-slate-300 border-t border-purple-900/20 leading-relaxed">
+                        Kami menerima pembayaran praktis melalui QRIS (BCA, Mandiri, BRI, BNI), E-Wallet (DANA, OVO, GoPay, ShopeePay), serta Transfer Bank Lokal.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="orderNotification" class="fixed bottom-6 left-6 z-40 max-w-xs glass-card rounded-2xl p-4 border-brand-500/40 shadow-2xl transition-all duration-500 transform translate-y-32 opacity-0 pointer-events-none">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 text-lg">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div>
+                <p class="text-xs font-bold text-white" id="notifUser">Seseorang dari Jakarta</p>
+                <p class="text-[11px] text-brand-300 font-medium" id="notifDetail">Baru saja membeli 5,000 TikTok Followers</p>
+                <span class="text-[9px] text-slate-400" id="notifTime">Baru saja</span>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/6281234567890?text=Halo%20Admin%20ViralBossID,%20saya%20ingin%20konsultasi%20order%20jasa%20sosmed" target="_blank" class="fixed bottom-6 right-6 z-50 group flex items-center gap-3">
+        <span class="hidden sm:inline-block glass-card border-emerald-500/40 px-3.5 py-2 rounded-xl text-xs font-bold text-emerald-400 shadow-xl group-hover:scale-105 transition-all">
+            Chat Admin WA Online <span class="w-2 h-2 rounded-full bg-emerald-400 inline-block ml-1 animate-ping"></span>
+        </span>
+        <div class="w-14 h-14 bg-emerald-500 hover:bg-emerald-600 rounded-full flex items-center justify-center text-white text-2xl shadow-xl shadow-emerald-500/40 group-hover:scale-110 transition-transform">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </a>
+
+    <footer class="bg-[#04020a] border-t border-purple-900/40 pt-16 pb-12 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 pb-12 border-b border-purple-900/30">
+                
+                <!-- Col 1: Brand Info -->
+                <div class="space-y-4">
+                    <a href="#" class="flex items-center gap-3">
+                        <div class="w-10 h-10 relative">
+                            <svg viewBox="0 0 200 200" class="w-full h-full">
+                                <path d="M 20 40 L 75 40 L 100 135 L 75 160 Z" fill="url(#logoVGrad)" />
+                                <path d="M 95 40 L 160 40 C 180 40, 180 75, 160 85 C 185 95, 185 135, 155 135 L 92 135 L 115 110 L 145 110 C 158 110, 158 92, 140 92 L 112 92 L 122 65 L 145 65 C 158 65, 158 52, 142 52 L 105 52 Z" fill="url(#logoBGrad)" />
+                            </svg>
+                        </div>
+                        <span class="text-xl font-extrabold text-white">VIRAL<span class="text-gradient">BOSS</span><span class="text-brand-400">.ID</span></span>
+                    </a>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Pusat penyedia jasa booster sosial media terpercaya & termurah #1 di Indonesia. Melayani pertumbuhan akun TikTok, Instagram, YouTube, dan Shopee secara aman.
+                    </p>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Navigasi Cepat</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#hero" class="hover:text-brand-400 transition-colors">Beranda</a></li>
+                        <li><a href="#calculator" class="hover:text-brand-400 transition-colors">Kalkulator Order</a></li>
+                        <li><a href="#services" class="hover:text-brand-400 transition-colors">Master Price List</a></li>
+                        <li><a href="#packages" class="hover:text-brand-400 transition-colors">Paket Viral Siap Order</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Services -->
+                <div>
+                    <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Layanan Populer</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#calculator" class="hover:text-brand-400 transition-colors">Followers TikTok Indonesia</a></li>
+                        <li><a href="#calculator" class="hover:text-brand-400 transition-colors">Instagram Likes Real</a></li>
+                        <li><a href="#calculator" class="hover:text-brand-400 transition-colors">Jam Tayang YouTube Monetisasi</a></li>
+                        <li><a href="#calculator" class="hover:text-brand-400 transition-colors">Shopee Live Streaming Viewers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact -->
+                <div>
+                    <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Hubungi Kami</h4>
+                    <p class="text-xs text-slate-400 mb-3">Butuh bantuan pesanan khusus atau konsultasi pendaftaran reseller?</p>
+                    <a href="https://wa.me/6285872376243" target="_blank" class="inline-flex items-center gap-2 text-xs font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-3.5 py-2 rounded-xl">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> Admin CS (08.00 - 23.00 WIB)
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-500 gap-4">
+                <p>&copy; 2026 ViralBossID. All Rights Reserved. Ultra HD Social Growth Infrastructure.</p>
+                <p class="flex items-center gap-4">
+                    <span>100% Secure Transaction</span>
+                    <span>•</span>
+                    <span>No Password Guarantee</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Database of services
+        const servicesData = {
+            tiktok: [
+                { id: 101, name: "TikTok Followers Active (Garansi Refill)", pricePer1k: 25000, min: 100, max: 100000, speed: "Instan (10-30m)", guarantee: "30 Hari Refill" },
+                { id: 102, name: "TikTok Views FYP Booster High Speed", pricePer1k: 500, min: 1000, max: 5000000, speed: "Super Cepat (1-5m)", guarantee: "Lifetime Guarantee" },
+                { id: 103, name: "TikTok Likes Video High Quality", pricePer1k: 12000, min: 100, max: 50000, speed: "Instan (5-15m)", guarantee: "No Drop" },
+                { id: 104, name: "TikTok Comments Custom Positif Indonesia", pricePer1k: 85000, min: 10, max: 1000, speed: "Proses Bertahap", guarantee: "100% Real Akun" },
+                { id: 105, name: "TikTok Live Stream Viewers (60 Menit)", pricePer1k: 35000, min: 100, max: 10000, speed: "Langsung Saat Live", guarantee: "Stabil 1 Jam" }
+            ],
+            instagram: [
+                { id: 201, name: "Instagram Followers Real Indonesia", pricePer1k: 32000, min: 100, max: 50000, speed: "15-60 Menit", guarantee: "30 Hari Refill" },
+                { id: 202, name: "Instagram Likes Postingan Active", pricePer1k: 8000, min: 100, max: 100000, speed: "Instan", guarantee: "No Drop" },
+                { id: 203, name: "Instagram Reels Views Viral Boost", pricePer1k: 1200, min: 1000, max: 1000000, speed: "Super Cepat", guarantee: "Permanen" },
+                { id: 204, name: "Instagram Story Views All Active", pricePer1k: 5000, min: 200, max: 20000, speed: "Instan", guarantee: "Safe API" }
+            ],
+            youtube: [
+                { id: 301, name: "YouTube Subscribers Target Organik", pricePer1k: 150000, min: 100, max: 10000, speed: "1-3 Hari", guarantee: "Garansi Non-Drop" },
+                { id: 302, name: "YouTube Jam Tayang (Monetisasi 4000 Jam)", pricePer1k: 220000, min: 500, max: 4000, speed: "Bertahap Safe", guarantee: "Lolos Syarat Monet" },
+                { id: 303, name: "YouTube Views Video Real Human", pricePer1k: 18000, min: 1000, max: 500000, speed: "Cepat Safe", guarantee: "Garansi Refill" },
+                { id: 304, name: "YouTube Likes Video Active", pricePer1k: 25000, min: 100, max: 20000, speed: "Instan", guarantee: "Permanen" }
+            ],
+            shopee: [
+                { id: 401, name: "Shopee Followers Toko Aktif", pricePer1k: 45000, min: 100, max: 20000, speed: "1-6 Jam", guarantee: "Refill 30 Hari" },
+                { id: 402, name: "Shopee Live Stream Viewers (60 Menit)", pricePer1k: 40000, min: 100, max: 5000, speed: "Instan", guarantee: "Stabil Live" },
+                { id: 403, name: "Shopee Favorit / Wishlist Produk", pricePer1k: 15000, min: 100, max: 10000, speed: "Instan", guarantee: "Permanen" }
+            ]
+        };
+
+        let currentPlatform = 'tiktok';
+
+        // Select Platform Handler
+        function selectPlatform(platform) {
+            currentPlatform = platform;
+            
+            // Update active state of platform buttons
+            const btns = document.querySelectorAll('.platform-btn');
+            btns.forEach(btn => {
+                btn.classList.remove('active', 'border-brand-500', 'bg-brand-500/20', 'text-white');
+                btn.classList.add('border-purple-900/50', 'bg-purple-950/20', 'text-slate-400');
+            });
+
+            const activeBtn = document.getElementById(`btn-${platform}`);
+            if(activeBtn) {
+                activeBtn.classList.add('active', 'border-brand-500', 'bg-brand-500/20', 'text-white');
+                activeBtn.classList.remove('border-purple-900/50', 'bg-purple-950/20', 'text-slate-400');
+            }
+
+            // Populate services dropdown
+            populateServices(platform);
+            updateCalculation();
+        }
+
+        // Populate Services Dropdown
+        function populateServices(platform) {
+            const select = document.getElementById('serviceSelect');
+            select.innerHTML = '';
+
+            const list = servicesData[platform] || [];
+            list.forEach(item => {
+                const opt = document.createElement('option');
+                opt.value = item.id;
+                opt.textContent = `${item.name} - Rp ${item.pricePer1k.toLocaleString('id-ID')}/1k`;
+                select.appendChild(opt);
+            });
+        }
+
+        // Set Quick Quantity
+        function setQuantity(qty) {
+            document.getElementById('quantityInput').value = qty;
+            updateCalculation();
+        }
+
+        // Update Calculation Summary
+        function updateCalculation() {
+            const serviceId = parseInt(document.getElementById('serviceSelect').value);
+            const qty = parseInt(document.getElementById('quantityInput').value) || 0;
+            
+            const list = servicesData[currentPlatform] || [];
+            const service = list.find(s => s.id === serviceId) || list[0];
+
+            if(!service) return;
+
+            // Update UI
+            document.getElementById('minMaxInfo').innerText = `Min: ${service.min.toLocaleString('id-ID')} | Max: ${service.max.toLocaleString('id-ID')}`;
+            document.getElementById('summaryPlatform').innerText = currentPlatform.toUpperCase();
+            document.getElementById('summaryService').innerText = service.name;
+            document.getElementById('summarySpeed').innerText = service.speed;
+            document.getElementById('summaryGuarantee').innerText = service.guarantee;
+            document.getElementById('summaryQty').innerText = qty.toLocaleString('id-ID');
+
+            // Price Calculation
+            const totalPrice = Math.round((qty / 1000) * service.pricePer1k);
+            document.getElementById('totalPrice').innerText = `Rp ${totalPrice.toLocaleString('id-ID')}`;
+        }
+
+        // Process Direct WhatsApp Order
+        function processOrder() {
+            const serviceId = parseInt(document.getElementById('serviceSelect').value);
+            const qty = document.getElementById('quantityInput').value;
+            const target = document.getElementById('targetInput').value.trim();
+
+            if(!target) {
+                // Inline UI Toast fallback instead of alert
+                showNotification("Perhatian!", "Mohon isi Username / Link Target terlebih dahulu!");
+                document.getElementById('targetInput').focus();
+                return;
+            }
+
+            const list = servicesData[currentPlatform] || [];
+            const service = list.find(s => s.id === serviceId);
+            const totalPrice = Math.round((qty / 1000) * service.pricePer1k);
+
+            const message = `Halo Admin ViralBossID, saya ingin order via website:\n\n` +
+                            `• Platform: ${currentPlatform.toUpperCase()}\n` +
+                            `• Layanan: ${service.name}\n` +
+                            `• Jumlah: ${qty}\n` +
+                            `• Target/Link: ${target}\n` +
+                            `• Total Bayar: Rp ${totalPrice.toLocaleString('id-ID')}\n\n` +
+                            `Mohon diproses pesanannya ya kak. Terima kasih!`;
+
+            const encoded = encodeURIComponent(message);
+            window.open(`https://wa.me/6281234567890?text=${encoded}`, '_blank');
+        }
+
+        // Order Preset Package
+        function orderPackage(packageName, price) {
+            const message = `Halo Admin ViralBossID, saya ingin membeli paket *${packageName}* seharga *Rp ${price}*. Mohon informasi nomor rekening pembayarannya.`;
+            window.open(`https://wa.me/6281234567890?text=${encodeURIComponent(message)}`, '_blank');
+        }
+
+        // Render Master Table
+        function renderMasterTable() {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+
+            let allServices = [];
+            Object.keys(servicesData).forEach(plat => {
+                servicesData[plat].forEach(item => {
+                    allServices.push({ ...item, platform: plat });
+                });
+            });
+
+            allServices.forEach(item => {
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-purple-950/30 transition-colors border-b border-purple-900/20";
+                tr.innerHTML = `
+                    <td class="p-4 font-mono font-bold text-brand-400">#${item.id}</td>
+                    <td class="p-4">
+                        <span class="inline-block px-2 py-0.5 text-[10px] font-extrabold uppercase rounded bg-purple-900/50 text-purple-300 border border-purple-700/40 mb-1">
+                            ${item.platform}
+                        </span>
+                        <p class="font-bold text-white text-xs sm:text-sm">${item.name}</p>
+                    </td>
+                    <td class="p-4 font-extrabold text-emerald-400">Rp ${item.pricePer1k.toLocaleString('id-ID')}</td>
+                    <td class="p-4 text-slate-400 text-xs">${item.min.toLocaleString('id-ID')} - ${item.max.toLocaleString('id-ID')}</td>
+                    <td class="p-4 text-slate-300 text-xs">${item.speed}</td>
+                    <td class="p-4"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-brand-500/10 text-brand-300 border border-brand-500/30">${item.guarantee}</span></td>
+                    <td class="p-4 text-center">
+                        <button onclick="selectPlatform('${item.platform}')" class="px-3 py-1.5 bg-gradient-to-r from-brand-500 to-purple-600 hover:from-brand-600 hover:to-pink-600 text-white font-bold text-xs rounded-lg shadow-md transition-all">
+                            Pesan
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Table Filter Function
+        function filterTable() {
+            const search = document.getElementById('tableSearch').value.toLowerCase();
+            const category = document.getElementById('tableCategoryFilter').value.toLowerCase();
+            
+            const rows = document.querySelectorAll('#tableBody tr');
+            rows.forEach(row => {
+                const text = row.innerText.toLowerCase();
+                const matchesSearch = text.includes(search);
+                const matchesCategory = (category === 'all' || text.includes(category));
+
+                if (matchesSearch && matchesCategory) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        // Accordion Toggle
+        function toggleFaq(id) {
+            const content = document.getElementById(id);
+            const icon = document.getElementById(`${id}-icon`);
+
+            if(content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Live Order Notification Generator
+        const randomNames = ["Seseorang dari Surabaya", "Kreator dari Jakarta", "Akun Store dari Bandung", "Influencer dari Medan", "Seseorang dari Semarang", "User dari Bali"];
+        const randomItems = ["1,000 Followers TikTok", "50,000 Views Video Viral", "5,000 Instagram Followers", "4,000 Jam Tayang YouTube", "2,500 Instagram Likes"];
+
+        function triggerLiveNotif() {
+            const notif = document.getElementById('orderNotification');
+            const nameEl = document.getElementById('notifUser');
+            const detailEl = document.getElementById('notifDetail');
+
+            const name = randomNames[Math.floor(Math.random() * randomNames.length)];
+            const item = randomItems[Math.floor(Math.random() * randomItems.length)];
+
+            nameEl.innerText = name;
+            detailEl.innerText = `Baru saja memesan ${item}`;
+
+            // Show
+            notif.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+            
+            // Hide after 4s
+            setTimeout(() => {
+                notif.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+            }, 4500);
+        }
+
+        function showNotification(title, detail) {
+            const notif = document.getElementById('orderNotification');
+            document.getElementById('notifUser').innerText = title;
+            document.getElementById('notifDetail').innerText = detail;
+            notif.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                notif.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+            }, 3500);
+        }
+
+        // Mobile Menu Toggle
+        document.getElementById('menuBtn').addEventListener('click', () => {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Initialize on Window Load
+        window.onload = function() {
+            selectPlatform('tiktok');
+            renderMasterTable();
+
+            // Trigger random live order popup every 12 seconds
+            setInterval(triggerLiveNotif, 12000);
+            setTimeout(triggerLiveNotif, 3000);
+        }
+    </script>
+</body>
+</html>
